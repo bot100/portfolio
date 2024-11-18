@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap w-32 gap-4 fixed">
+  <div class="flex flex-wrap gap-4 fixed">
     <button
       @click="toggleMenu"
       value="hamburger"

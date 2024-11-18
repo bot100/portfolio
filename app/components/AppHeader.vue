@@ -6,7 +6,7 @@
       <NuxtLink to="/" class="text-3xl font-semibold link">John Konan</NuxtLink>
     </div>
 
-    <nav class="flex font-mono">
+    <nav class="flex font-mono justify-center">
       <AppLinks class="md:flex hidden items-center md:space-x-4 text-xl" />
       <Transition>
         <AppLinks

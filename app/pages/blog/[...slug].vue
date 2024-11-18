@@ -12,6 +12,7 @@
       <template v-slot="{ doc }">
         <div class="grid grid-cols-6 gap-16">
           <div
+            class="justify-self-center"
             :class="{
               'col-span-6 md:col-span-4': doc.toc,
               'col-span-6': !doc.toc,
